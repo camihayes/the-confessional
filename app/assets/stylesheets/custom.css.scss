@@ -4,7 +4,7 @@
 body{
   padding-top: 70px;
   background: #242424;
-  color: #99FF66;
+  color: #000;
 }
 
 .article-title, .article-body{
@@ -35,5 +35,13 @@ body{
 }
 
 a{
-  color: #FF0066;
+  color: #99FF66;
+}
+
+a:hover {
+    color: #FF0066;
+}
+
+h1{
+  color: #99FF66;
 }
