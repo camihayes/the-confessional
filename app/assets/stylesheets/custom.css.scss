@@ -2,13 +2,16 @@
 @import "bootstrap";
 
 body{
+  background-image: image-url("tardis.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 70px;
-  background: #666666;
   color: #000000;
 }
 
 .article-title, .article-body{
   padding-left: 0.7 em;
+
 }
 
 .article-title{
@@ -18,6 +21,7 @@ body{
 }
 
 .article-body{
+  color: #fff;
   font-size: 1.5em;
 }
 
@@ -27,23 +31,25 @@ body{
 
 #article-date{
   margin-bottom: 40px;
+  color: #fff;
 }
 
 .article-detail-title{
+  color: #fff;
   font-size: 4em;
   margin-bottom: 40px;
 }
 
 a{
-  color: #99FF66;
+  color: #000;
 }
 
 a:hover {
-    color: #FF0066;
+    color: #CB3E41;
 }
 
-h1{
-  color: #99FF66;
+h1, h2, h3{
+  color: #fff;
 }
 
 .btn-space{
@@ -85,14 +91,29 @@ h1{
  }
 
 .comment-body, .comment-time{
+  color: #fff;
   margin-left: 2em;
 }
 
 .comment-body{
+  color: #fff;
   font-size: x-large;
 }
 
 .comment-time{
+
   font-style: italic;
   font-size: large;
 }
+
+.well{
+  opacity: 0.8;
+  color: #000;
+}
+
+footer{
+  color: #fff;
+}
+
+
+
