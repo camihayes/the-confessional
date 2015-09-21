@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-
+ruby '2.1.5'
 gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-sass', '~>3.3.4.1'
@@ -41,7 +41,7 @@ group :development, :test do
   gem 'guard-rspec', require: false
   gem 'spring-commands-rspec'
   gem 'sqlite3'
-
+  gem 'pry'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
