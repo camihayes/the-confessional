@@ -4,10 +4,10 @@
 body{
   background-image: image-url("abstract-flower.jpg");
   background-color:#000000;
-  background-repeat: no-repeat;
+
   background-size: 100%;
   padding-top: 70px;
-  color: #F0AD4E;
+  color: #000000;
 }
 
 .article-title, .article-body{
@@ -22,7 +22,7 @@ body{
 }
 
 .article-body{
-  color: #F0AD4E;
+  color: #000000;
   font-size: 1.5em;
 }
 
@@ -32,25 +32,25 @@ body{
 
 #article-date{
   margin-bottom: 40px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .article-detail-title{
-  color: #ffffff;
+  color: #000000;
   font-size: 4em;
   margin-bottom: 40px;
 }
 
 a{
-  color: #fff;
+  color: #000000;
 }
 
 a:hover {
-    color: #F0AD4E;
+    color: #b94a48;
 }
 
 h1, h2, h3{
-  color:#ffffff;
+  color:#000000;
 }
 
 
@@ -93,12 +93,12 @@ h1, h2, h3{
  }
 
 .comment-body, .comment-time{
-  color: #F0AD4E;
+  color: #000000;
   margin-left: 2em;
 }
 
 .comment-body{
-  color: #F0AD4E;
+  color: #000000;
   font-size: medium;
 }
 
@@ -109,13 +109,15 @@ h1, h2, h3{
 }
 
 .well{
-  opacity: 0.8;
-  background-color: #000000;
+  opacity: 0.6;
+  background-color: #ffffff;
 }
 
 footer{
-  color: #F0AD4E;
+  color: #000000;
 }
 
-
+navbar{
+  color:#000000;
+}
 
