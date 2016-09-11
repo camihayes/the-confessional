@@ -2,11 +2,12 @@
 @import "bootstrap";
 
 body{
-  background-image: image-url("tardis.jpg");
-  background-size: cover;
+  background-image: image-url("abstract-flower.jpg");
+  background-color:#000000;
   background-repeat: no-repeat;
+  background-size: 100%;
   padding-top: 70px;
-  color: #000000;
+  color: #F0AD4E;
 }
 
 .article-title, .article-body{
@@ -21,7 +22,7 @@ body{
 }
 
 .article-body{
-  color: #fff;
+  color: #F0AD4E;
   font-size: 1.5em;
 }
 
@@ -31,26 +32,27 @@ body{
 
 #article-date{
   margin-bottom: 40px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .article-detail-title{
-  color: #fff;
+  color: #ffffff;
   font-size: 4em;
   margin-bottom: 40px;
 }
 
 a{
-  color: #000;
+  color: #fff;
 }
 
 a:hover {
-    color: #CB3E41;
+    color: #F0AD4E;
 }
 
 h1, h2, h3{
-  color: #fff;
+  color:#ffffff;
 }
+
 
 .btn-space{
   margin-top: 20px;
@@ -91,28 +93,28 @@ h1, h2, h3{
  }
 
 .comment-body, .comment-time{
-  color: #fff;
+  color: #F0AD4E;
   margin-left: 2em;
 }
 
 .comment-body{
-  color: #fff;
-  font-size: x-large;
+  color: #F0AD4E;
+  font-size: medium;
 }
 
 .comment-time{
 
   font-style: italic;
-  font-size: large;
+  font-size: x-small;
 }
 
 .well{
   opacity: 0.8;
-  color: #000;
+  background-color: #000000;
 }
 
 footer{
-  color: #fff;
+  color: #F0AD4E;
 }
 
 
