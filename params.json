@@ -1,6 +1,6 @@
 {
   "name": "Journal App",
-  "tagline": "This is a journal app I wrote so everyone cal have a place to shout",
+  "tagline": "This is a journal app I wrote so everyone can have a place to shout",
   "body": "Welcome to my journal app. Built with ruby 2.3.1.  \r\nFeel free to checkout the app below and sign up as well as checking out the code!\r\n![journal](http://languageandliteracytheoryandpractice.wikispaces.com/file/view/Writing_in_Journal.jpg/164633353/Writing_in_Journal.jpg)\r\n\r\n[Journal App on Heroku](https://cryptic-foggy-bayou.herokuapp.com/)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
